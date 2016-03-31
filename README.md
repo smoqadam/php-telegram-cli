@@ -17,7 +17,7 @@ then run `$ composer install`
 ## How to use
 first start tg-cli :
 
-`/bin/telegram-cli --json -dWS /tmp/t.sck &`
+`$ ./bin/telegram-cli --json -dWS /tmp/t.sck &`
 
 then in your php file : 
 

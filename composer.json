@@ -1,0 +1,18 @@
+{
+    "name": "smoqadam/telegramcli",
+    "description": "php wrapper for telegram cli",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saeed Moqadam",
+            "email": "phpro.ir@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Smoqadam": "src/"
+        }
+    },
+    "require": {}
+}

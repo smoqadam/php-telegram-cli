@@ -17,7 +17,7 @@ class TelegramCli
     {
         $this->f = stream_socket_client($socket);
         if ($this->f === false) {
-            throw new TException('Connect to remote socket failed.');
+            throw new \Exception('Connect to remote socket failed.');
         }
     }
 
